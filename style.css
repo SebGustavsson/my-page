@@ -1,0 +1,89 @@
+body {
+  background-color: #EAE7C6;
+  /* line-height: normal; */
+  /* color: red; */
+}
+
+h1 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+h2 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+p {
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+.container {
+  margin: 20px auto;
+  width: 700px;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  margin: 15px;
+}
+
+div {
+  text-align: center;
+}
+
+ul li {
+	display: inline;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 5px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#github {
+  color: black;
+}
+
+#instagram {
+  color: black;
+}
+
+#linkedin {
+  color: black;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
